@@ -17,7 +17,7 @@ const Footer = () => (
         <p className='p__opensans'> +1 212-344-1230 </p>
     </div>
 
-      /*class for links logos*/
+
       <div className="app__footer-links_logo">
         <img src={images.gericht} alt="" />
         <p className='p__opensans'> The best way to find your self is to yourself in the service of others</p>

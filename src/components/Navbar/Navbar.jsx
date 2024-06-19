@@ -28,10 +28,9 @@ return(
       <div/>
      <a href="/" className='p__opensans'>Book Table</a>
     </div>
-    
+
     <div className="app__navbar-smallscreen">
       <GiHamburgerMenu color='fff' fontSize={27} onClick={()=>{setToggleMenu(true)}}/>
-     
       {toggleMenu && (
       <div className="app__navbar-smallscreen-overlay" flex__center slide-bottom>
         <MdOutlineRestaurantMenu color="fff" fontSize={27} className='overlay__close' onClick={()=> {setToggleMenu(false)}}/>

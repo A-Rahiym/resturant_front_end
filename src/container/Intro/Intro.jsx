@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BsFillPlayFill, BsPauseFill } from 'react-icons/bs';
 import {meal} from "../../constants" 
 import './Intro.css';
+
 const Intro = () =>{ 
   const[playVideo,setplayVideo] = useState(false);
   const videoRef = React.useRef();
@@ -14,6 +15,7 @@ const Intro = () =>{
     }
   }
   
+
   return(
   <div className='app__video'>
     <video
@@ -33,6 +35,7 @@ const Intro = () =>{
         ):<BsFillPlayFill color='#fff' fontSize={30}/>}
        </div>
     </div>
+    
   </div>
 );}
 
